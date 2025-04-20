@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from model import chat_with_bot
+from model import get_embeddings
 
 app = FastAPI()
 
